@@ -40,6 +40,7 @@ import springfox.documentation.spi.service.contexts.DocumentationContext;
 import springfox.documentation.spi.service.contexts.RequestMappingContext;
 import springfox.documentation.spring.web.paths.PathMappingAdjuster;
 import springfox.documentation.spring.web.plugins.DocumentationPluginsManager;
+import springfox.documentation.spring.web.servlet.scanners.ApiDescriptionReader;
 
 import java.util.Collections;
 import java.util.LinkedHashMap;

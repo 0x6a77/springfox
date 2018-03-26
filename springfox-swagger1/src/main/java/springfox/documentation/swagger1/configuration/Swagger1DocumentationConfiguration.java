@@ -28,7 +28,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.web.servlet.HandlerMapping;
 import springfox.documentation.spi.service.contexts.Defaults;
 import springfox.documentation.spring.web.DocumentationCache;
-import springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping;
+import springfox.documentation.spring.web.servlet.PropertySourcedRequestMappingHandlerMapping;
 import springfox.documentation.spring.web.SpringfoxWebMvcConfiguration;
 import springfox.documentation.spring.web.json.JacksonModuleRegistrar;
 import springfox.documentation.spring.web.json.JsonSerializer;

@@ -26,7 +26,7 @@ import springfox.documentation.builders.ApiListingBuilder
 import springfox.documentation.service.*
 import springfox.documentation.spi.service.contexts.Defaults
 import springfox.documentation.spi.service.contexts.RequestMappingContext
-import springfox.documentation.spring.web.WebMvcRequestHandler
+import springfox.documentation.spring.web.servlet.WebMvcRequestHandler
 import springfox.documentation.spring.web.mixins.RequestMappingSupport
 import springfox.documentation.spring.web.paths.AbstractPathProvider
 import springfox.documentation.spring.web.paths.RelativePathProvider

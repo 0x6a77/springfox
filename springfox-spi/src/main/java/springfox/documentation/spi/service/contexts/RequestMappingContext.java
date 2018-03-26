@@ -27,7 +27,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.mvc.condition.NameValueExpression;
 import org.springframework.web.servlet.mvc.condition.PatternsRequestCondition;
-import springfox.documentation.RequestHandler;
+import springfox.documentation.servlet.RequestHandler;
 import springfox.documentation.RequestHandlerKey;
 import springfox.documentation.builders.ApiDescriptionBuilder;
 import springfox.documentation.schema.Model;

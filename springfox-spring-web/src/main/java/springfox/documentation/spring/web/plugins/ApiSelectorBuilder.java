@@ -21,7 +21,7 @@ package springfox.documentation.spring.web.plugins;
 
 import com.google.common.base.Predicate;
 import com.google.common.collect.Iterables;
-import springfox.documentation.RequestHandler;
+import springfox.documentation.servlet.RequestHandler;
 import springfox.documentation.spi.service.contexts.ApiSelector;
 
 import static com.google.common.base.Predicates.*;

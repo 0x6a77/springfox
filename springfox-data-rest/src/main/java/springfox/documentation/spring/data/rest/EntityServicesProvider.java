@@ -30,7 +30,7 @@ import org.springframework.data.rest.core.mapping.ResourceMappings;
 import org.springframework.data.rest.core.mapping.ResourceMetadata;
 import org.springframework.data.rest.webmvc.mapping.Associations;
 import org.springframework.stereotype.Component;
-import springfox.documentation.RequestHandler;
+import springfox.documentation.servlet.RequestHandler;
 import springfox.documentation.spi.service.RequestHandlerProvider;
 
 import javax.annotation.PostConstruct;

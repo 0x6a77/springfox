@@ -24,7 +24,7 @@ import com.google.common.base.Optional;
 import com.google.common.base.Predicate;
 import com.google.common.base.Predicates;
 import org.springframework.util.ClassUtils;
-import springfox.documentation.RequestHandler;
+import springfox.documentation.servlet.RequestHandler;
 
 import java.lang.annotation.Annotation;
 

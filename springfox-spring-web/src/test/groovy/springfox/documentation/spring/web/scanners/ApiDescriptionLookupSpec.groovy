@@ -19,7 +19,7 @@
 package springfox.documentation.spring.web.scanners
 
 import spock.lang.Specification
-import springfox.documentation.RequestHandler
+import springfox.documentation.servlet.RequestHandler
 import springfox.documentation.RequestHandlerKey
 import springfox.documentation.service.ApiDescription
 import springfox.documentation.spring.web.mixins.RequestMappingSupport

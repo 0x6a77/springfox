@@ -1,26 +1,27 @@
 /*
  *
- *  Copyright 2016 the original author or authors.
  *
- *  Licensed under the Apache License, Version 2.0 (the "License");
- *  you may not use this file except in compliance with the License.
- *  You may obtain a copy of the License at
+ * Copyright 2017 the original author or authors.
  *
- *         http://www.apache.org/licenses/LICENSE-2.0
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
  *
- *  Unless required by applicable law or agreed to in writing, software
- *  distributed under the License is distributed on an "AS IS" BASIS,
- *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- *  See the License for the specific language governing permissions and
- *  limitations under the License.
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  *
  *
  */
 
-package springfox.documentation.spring.web.readers.operation;
+package springfox.documentation.spring.web.reactive.operation;
 
 import com.fasterxml.classmate.TypeResolver;
-import org.springframework.web.servlet.mvc.condition.NameValueExpression;
+import org.springframework.web.reactive.result.condition.NameValueExpression;
 import springfox.documentation.builders.ParameterBuilder;
 import springfox.documentation.schema.ModelRef;
 import springfox.documentation.service.AllowableListValues;
@@ -31,10 +32,10 @@ import springfox.documentation.spi.service.OperationBuilderPlugin;
 import java.util.List;
 import java.util.Set;
 
-import static com.google.common.base.Strings.isNullOrEmpty;
-import static com.google.common.collect.Iterables.any;
-import static com.google.common.collect.Lists.newArrayList;
-import static springfox.documentation.builders.Parameters.withName;
+import static com.google.common.base.Strings.*;
+import static com.google.common.collect.Iterables.*;
+import static com.google.common.collect.Lists.*;
+import static springfox.documentation.builders.Parameters.*;
 
 public abstract class AbstractOperationParameterRequestConditionReader implements OperationBuilderPlugin {
 

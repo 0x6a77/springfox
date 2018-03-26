@@ -30,7 +30,7 @@ import org.springframework.hateoas.Resources;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.method.HandlerMethod;
-import springfox.documentation.RequestHandler;
+import springfox.documentation.servlet.RequestHandler;
 import springfox.documentation.schema.Collections;
 import springfox.documentation.schema.Types;
 import springfox.documentation.service.ResolvedMethodParameter;

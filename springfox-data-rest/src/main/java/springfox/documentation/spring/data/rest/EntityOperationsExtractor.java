@@ -18,7 +18,7 @@
  */
 package springfox.documentation.spring.data.rest;
 
-import springfox.documentation.RequestHandler;
+import springfox.documentation.servlet.RequestHandler;
 
 import java.util.List;
 

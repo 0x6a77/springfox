@@ -31,7 +31,7 @@ import springfox.documentation.spring.web.json.JacksonModuleRegistrar;
 import springfox.documentation.spring.web.json.JsonSerializer;
 import springfox.documentation.swagger.configuration.SwaggerCommonConfiguration;
 import springfox.documentation.swagger2.mappers.ServiceModelToSwagger2Mapper;
-import springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping;
+import springfox.documentation.spring.web.servlet.PropertySourcedRequestMappingHandlerMapping;
 import springfox.documentation.swagger2.web.Swagger2Controller;
 
 @Configuration

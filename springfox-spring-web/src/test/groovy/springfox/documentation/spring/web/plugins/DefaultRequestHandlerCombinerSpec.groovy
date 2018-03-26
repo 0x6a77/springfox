@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMethod
 import org.springframework.web.servlet.mvc.condition.PatternsRequestCondition
 import spock.lang.Specification
 import spock.lang.Unroll
-import springfox.documentation.RequestHandler
+import springfox.documentation.servlet.RequestHandler
 import springfox.documentation.service.ResolvedMethodParameter
 
 import static com.google.common.collect.Sets.newHashSet

@@ -21,6 +21,7 @@ package springfox.documentation.spring.web.plugins
 import com.fasterxml.classmate.TypeResolver
 import spock.lang.Specification
 import springfox.documentation.spring.web.readers.operation.HandlerMethodResolver
+import springfox.documentation.spring.web.servlet.plugins.WebMvcRequestHandlerProvider
 
 class WebMvcRequestHandlerProviderSpec extends Specification {
   def "when handler mappings is empty or null" () {

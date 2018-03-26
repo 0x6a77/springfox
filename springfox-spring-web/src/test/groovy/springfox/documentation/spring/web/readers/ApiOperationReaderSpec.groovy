@@ -27,7 +27,7 @@ import springfox.documentation.builders.PathSelectors
 import springfox.documentation.service.Operation
 import springfox.documentation.spi.service.contexts.RequestMappingContext
 import springfox.documentation.spi.service.contexts.SecurityContext
-import springfox.documentation.spring.web.WebMvcRequestHandler
+import springfox.documentation.spring.web.servlet.WebMvcRequestHandler
 import springfox.documentation.spring.web.mixins.AuthSupport
 import springfox.documentation.spring.web.mixins.RequestMappingSupport
 import springfox.documentation.spring.web.mixins.ServicePluginsSupport

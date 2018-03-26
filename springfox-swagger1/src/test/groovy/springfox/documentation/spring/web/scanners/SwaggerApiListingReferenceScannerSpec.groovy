@@ -22,11 +22,11 @@ package springfox.documentation.spring.web.scanners
 import com.fasterxml.classmate.TypeResolver
 import com.google.common.base.Optional
 import org.springframework.web.servlet.mvc.method.RequestMappingInfo
-import springfox.documentation.RequestHandler
+import springfox.documentation.servlet.RequestHandler
 import springfox.documentation.annotations.ApiIgnore
 import springfox.documentation.service.ResourceGroup
-import springfox.documentation.spring.web.SpringGroupingStrategy
-import springfox.documentation.spring.web.WebMvcRequestHandler
+import springfox.documentation.spring.web.servlet.SpringGroupingStrategy
+import springfox.documentation.spring.web.servlet.WebMvcRequestHandler
 import springfox.documentation.spring.web.dummy.DummyClass
 import springfox.documentation.spring.web.dummy.DummyController
 import springfox.documentation.spring.web.mixins.AccessorAssertions

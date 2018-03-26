@@ -25,7 +25,7 @@ import org.springframework.data.mapping.PersistentEntity;
 import org.springframework.data.mapping.PersistentProperty;
 import org.springframework.data.mapping.SimpleAssociationHandler;
 import org.springframework.data.rest.webmvc.mapping.Associations;
-import springfox.documentation.RequestHandler;
+import springfox.documentation.servlet.RequestHandler;
 
 import java.util.List;
 

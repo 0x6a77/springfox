@@ -41,6 +41,7 @@ import springfox.documentation.spi.service.contexts.Defaults;
 import springfox.documentation.spring.web.json.JacksonModuleRegistrar;
 import springfox.documentation.spring.web.json.JsonSerializer;
 import springfox.documentation.spring.web.readers.operation.HandlerMethodResolver;
+import springfox.documentation.spring.web.servlet.ObjectMapperConfigurer;
 
 import java.util.List;
 

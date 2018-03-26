@@ -24,6 +24,7 @@ import spock.lang.Specification
 import springfox.documentation.spi.DocumentationType
 import springfox.documentation.spi.service.ResourceGroupingStrategy
 import springfox.documentation.spring.web.mixins.RequestMappingSupport
+import springfox.documentation.spring.web.servlet.SpringGroupingStrategy
 
 @Mixin(RequestMappingSupport)
 class SpringGroupingStrategySpec extends Specification {

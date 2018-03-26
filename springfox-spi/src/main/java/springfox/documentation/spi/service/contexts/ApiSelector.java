@@ -20,7 +20,7 @@
 package springfox.documentation.spi.service.contexts;
 
 import com.google.common.base.Predicate;
-import springfox.documentation.RequestHandler;
+import springfox.documentation.servlet.RequestHandler;
 import springfox.documentation.annotations.ApiIgnore;
 import springfox.documentation.builders.PathSelectors;
 

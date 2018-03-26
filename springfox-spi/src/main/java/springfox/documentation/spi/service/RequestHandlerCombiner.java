@@ -18,7 +18,7 @@
  */
 package springfox.documentation.spi.service;
 
-import springfox.documentation.RequestHandler;
+import springfox.documentation.servlet.RequestHandler;
 
 import java.util.List;
 

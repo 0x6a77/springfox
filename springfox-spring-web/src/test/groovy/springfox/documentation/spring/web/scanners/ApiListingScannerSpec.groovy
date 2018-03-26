@@ -28,8 +28,8 @@ import springfox.documentation.service.ApiListing
 import springfox.documentation.service.ResourceGroup
 import springfox.documentation.spi.service.contexts.RequestMappingContext
 import springfox.documentation.spi.service.contexts.SecurityContext
-import springfox.documentation.spring.web.SpringGroupingStrategy
-import springfox.documentation.spring.web.WebMvcRequestHandler
+import springfox.documentation.spring.web.servlet.SpringGroupingStrategy
+import springfox.documentation.spring.web.servlet.WebMvcRequestHandler
 import springfox.documentation.spring.web.dummy.DummyClass
 import springfox.documentation.spring.web.dummy.DummyControllerWithResourcePath
 import springfox.documentation.spring.web.mixins.ApiDescriptionSupport
@@ -39,6 +39,7 @@ import springfox.documentation.spring.web.mixins.RequestMappingSupport
 import springfox.documentation.spring.web.mixins.ServicePluginsSupport
 import springfox.documentation.spring.web.plugins.DocumentationContextSpec
 import springfox.documentation.spring.web.readers.operation.HandlerMethodResolver
+import springfox.documentation.spring.web.servlet.scanners.ApiDescriptionReader
 
 import static com.google.common.collect.Lists.*
 import static com.google.common.collect.Maps.*

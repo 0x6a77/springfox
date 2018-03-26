@@ -22,7 +22,7 @@ package springfox.documentation.spi.service.contexts;
 import com.google.common.collect.Ordering;
 import com.google.common.primitives.Ints;
 import org.springframework.web.servlet.mvc.condition.PatternsRequestCondition;
-import springfox.documentation.RequestHandler;
+import springfox.documentation.servlet.RequestHandler;
 import springfox.documentation.service.ApiDescription;
 import springfox.documentation.service.ApiListingReference;
 import springfox.documentation.service.Operation;

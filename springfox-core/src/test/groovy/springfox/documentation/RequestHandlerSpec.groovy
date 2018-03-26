@@ -24,6 +24,7 @@ import org.springframework.web.servlet.mvc.method.RequestMappingInfo
 import spock.lang.Ignore
 import spock.lang.Specification
 import springfox.documentation.builders.MockRequestHandler
+import springfox.documentation.servlet.RequestHandler
 
 @Ignore("Because this needs to be moved to implementations")
 class RequestHandlerSpec extends Specification {

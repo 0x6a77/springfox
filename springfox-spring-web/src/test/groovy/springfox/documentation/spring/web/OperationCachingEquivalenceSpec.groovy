@@ -34,7 +34,7 @@ import org.springframework.web.servlet.mvc.condition.RequestCondition
 import org.springframework.web.servlet.mvc.condition.RequestMethodsRequestCondition
 import org.springframework.web.servlet.mvc.method.RequestMappingInfo
 import spock.lang.Specification
-import springfox.documentation.RequestHandler
+import springfox.documentation.servlet.RequestHandler
 import springfox.documentation.RequestHandlerKey
 import springfox.documentation.service.ResolvedMethodParameter
 import springfox.documentation.spi.schema.GenericTypeNamingStrategy
@@ -42,6 +42,7 @@ import springfox.documentation.spi.service.contexts.DocumentationContext
 import springfox.documentation.spi.service.contexts.RequestMappingContext
 import springfox.documentation.spring.web.mixins.HandlerMethodsSupport
 import springfox.documentation.spring.web.readers.operation.HandlerMethodResolver
+import springfox.documentation.spring.web.servlet.WebMvcRequestHandler
 
 import java.lang.annotation.Annotation
 

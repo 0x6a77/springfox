@@ -19,7 +19,7 @@
 package springfox.documentation.spring.web.scanners;
 
 import org.springframework.stereotype.Component;
-import springfox.documentation.RequestHandler;
+import springfox.documentation.servlet.RequestHandler;
 import springfox.documentation.RequestHandlerKey;
 import springfox.documentation.annotations.Incubating;
 import springfox.documentation.service.ApiDescription;

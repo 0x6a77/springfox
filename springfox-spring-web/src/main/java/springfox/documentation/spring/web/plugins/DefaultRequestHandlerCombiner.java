@@ -24,8 +24,9 @@ import com.google.common.collect.LinkedListMultimap;
 import com.google.common.collect.ListMultimap;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.Multimaps;
-import springfox.documentation.RequestHandler;
+import springfox.documentation.servlet.RequestHandler;
 import springfox.documentation.spi.service.RequestHandlerCombiner;
+import springfox.documentation.spring.web.servlet.plugins.CombinedRequestHandler;
 
 import java.util.ArrayList;
 import java.util.Collection;

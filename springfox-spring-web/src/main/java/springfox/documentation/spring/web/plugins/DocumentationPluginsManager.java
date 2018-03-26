@@ -48,7 +48,7 @@ import springfox.documentation.spi.service.contexts.ParameterContext;
 import springfox.documentation.spi.service.contexts.ParameterExpansionContext;
 import springfox.documentation.spi.service.contexts.PathContext;
 import springfox.documentation.spi.service.contexts.RequestMappingContext;
-import springfox.documentation.spring.web.SpringGroupingStrategy;
+import springfox.documentation.spring.web.servlet.SpringGroupingStrategy;
 import springfox.documentation.spring.web.scanners.ApiListingScanningContext;
 
 import java.util.Collection;

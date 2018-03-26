@@ -24,14 +24,14 @@ import org.springframework.web.servlet.mvc.method.RequestMappingInfo
 import springfox.documentation.service.ApiDescription
 import springfox.documentation.service.Operation
 import springfox.documentation.spi.service.contexts.RequestMappingContext
-import springfox.documentation.spring.web.WebMvcRequestHandler
+import springfox.documentation.spring.web.servlet.WebMvcRequestHandler
 import springfox.documentation.spring.web.mixins.RequestMappingSupport
 import springfox.documentation.spring.web.mixins.ServicePluginsSupport
 import springfox.documentation.spring.web.plugins.DocumentationContextSpec
 import springfox.documentation.spring.web.readers.operation.ApiOperationReader
 import springfox.documentation.spring.web.readers.operation.HandlerMethodResolver
 import springfox.documentation.spring.web.scanners.ApiDescriptionLookup
-import springfox.documentation.spring.web.scanners.ApiDescriptionReader
+import springfox.documentation.spring.web.servlet.scanners.ApiDescriptionReader
 import springfox.documentation.swagger1.mixins.SwaggerPathProviderSupport
 
 import javax.servlet.ServletContext
